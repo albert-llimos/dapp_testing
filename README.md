@@ -14,7 +14,7 @@ To deploy and test ( you need a local ganache-cli running, or run it on a testne
 truffle migrate (--network rinkeby)
 truffle test  (--network rinkeby)
 
-I have made a simple frontend on top using React and NextJS where the user can deploy contracts through the factory and see a list of all the contracts deployed and who the manager is. If the user is the manager, it can also see the hash value stored by the contract, otherwise an error message appears.
+I have made a frontend on top using React and NextJS where the user can deploy contracts through the factory and see a list of all the contracts deployed and who the manager is. If the user is the manager, it can also see the hash value stored by the contract, otherwise an error message appears. The code is under /pages and /components.
 
 A factory is already deployed on Rinkeby, so it is possible to just run the dAPP FrontEnd and interact with it. To do that, run:
 
@@ -30,7 +30,7 @@ cd scripts
 (frontend is running on http://localhost:3000/)
 (remember to set your metamask to Rinkeby).
 
-This repo also contains some extremely simple react frontend I made for testing stuff, to try things like getting an ABI contract from etherescan. Both the code and frontend are ugly, it is just here because why remove it, right? No judgment on this one please :)
+This repo also contains some extremely simple react frontend I made for testing stuff, to try things like getting an ABI contract from etherescan. Both the code and frontend are ugly, it is just here because why remove it, right? No judgment on this one please :) . The code is under /src.
 Same as before, to run it as is:
 
 npm start
