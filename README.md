@@ -7,6 +7,7 @@ npm install
 To compile:
 truffle compile
 To deploy and test ( you need a local ganache-cli running, or run it on a testnet):
+
 truffle migrate (--network rinkeby)
 truffle test  (--network rinkeby)
 
