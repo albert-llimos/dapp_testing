@@ -25,7 +25,7 @@ cd scripts
 
 (frontend is running on http://localhost:3000/)
 
-This repo also contains some extremely simple react frontend I made for testing stuff, to try things like getting an ABI contract from etherescan. This code and frontend is ugly, it is just here because why remove it, right?
+This repo also contains some extremely simple react frontend I made for testing stuff, to try things like getting an ABI contract from etherescan. Both the code and frontend are ugly, it is just here because why remove it, right? No judgment on this one please :)
 Same as before, to run it as is:
 npm start
 
