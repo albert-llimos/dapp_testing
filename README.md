@@ -1,6 +1,7 @@
 DAPP made for learning purposes.
 
 To install all the packages first:
+
 npm install
 
 To compile:
@@ -30,6 +31,7 @@ cd scripts
 
 This repo also contains some extremely simple react frontend I made for testing stuff, to try things like getting an ABI contract from etherescan. Both the code and frontend are ugly, it is just here because why remove it, right? No judgment on this one please :)
 Same as before, to run it as is:
+
 npm start
 
 Or with a script, deploying a new factory on Rinkeby (mnemonic needed)
