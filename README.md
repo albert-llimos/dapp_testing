@@ -21,7 +21,7 @@ A factory is already deployed on Rinkeby, so it is possible to just run the dAPP
 npm run dev
 (remember to set your metamask to Rinkeby).
 
-I did not implement the redeployment of a factory, so if you want to do that I have created a small script to do it. Only "gotcha" is to remember to add your mnemonic to the truffle-config.js file. It seemed like a bad idea to leave my mnemonic there :)
+I did not implement the redeployment of a factory on the frontend, so if you want to do that I have created a small script to do it. Only "gotcha" is to remember to add your mnemonic to the truffle-config.js file. It seemed like a bad idea to leave my mnemonic there :)
 This script will redeploy the factory on Rinkeby and start the frontend:
 
 cd scripts
