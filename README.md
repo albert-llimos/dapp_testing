@@ -1,18 +1,18 @@
 DAPP made for learning purposes.
 
+Contains a basic contract that stores a hash value and that can only be read by the owner. The hash vale can be read by other users since it is in the blockchain, so it is not private. This is only for learning purposes in the front end, the solidity code was not a relevant aspect here. There is a also a basic factory contract that deploys basic contracts and stores its location.
+
+
 To install all the packages first:
 
 npm install
 
 To compile:
 truffle compile
-To deploy and test ( you need a local ganache-cli running, or run it on a testnet):
+To deploy and test ( you need a local ganache-cli running, or run it on a testnet adding your mnemonic to the truffle-config.js file):
 
 truffle migrate (--network rinkeby)
 truffle test  (--network rinkeby)
-
-Contains a basic contract that stores a hash value and that can only be read by the owner.
-(The hash vale can be read by other users since it is in the blockchain, so it is not private. This is only for learning purposes in the front end, the solidity code is not so relevant here). There is a also a basic factory contract that deploys basic contracts and stores its location.
 
 I have made a simple frontend on top using React and NextJS where the user can deploy contracts through the factory and see a list of all the contracts deployed and who the manager is. If the user is the manager, it can also see the hash value stored by the contract, otherwise an error message appears.
 
